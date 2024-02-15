@@ -1,0 +1,110 @@
+.select-one-modal > div:first-child:not(.select-height-one-modal), .select-one-modal input:not(.input-checkbox) {
+    height: 40px !important;
+}
+.select-height-one-modal {
+    min-height: 40px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.select-start-label {
+    align-items: start !important;
+}
+.select-one-modal .form-control {
+    padding-right: 2rem;
+}
+.select-one-modal > div:first-child:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: url('../img/arrow-down.svg') center center no-repeat;
+    right: 0.8rem;
+    background-size: 10px;
+    top: 0.9rem;
+}
+.option-checkbox{
+    background: url(../img/checkbox.svg) no-repeat right 15px center;
+}
+.option-checkbox-check {
+    background-image: url(../img/checkbox-check.svg);
+}
+.select-one-modal .form-control span {
+    position: absolute;
+    right: 0.5rem;
+}
+.floating-label {
+    position: absolute;
+    font-size: 0.7rem;
+    color: #999;
+    padding: 0.1rem 0 0 0.7rem;
+}
+.multi-select-item {
+    padding: 2px 5px 2px 10px;
+    background: #006CBE;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.remove-item-multiselect {
+    width: 11px;
+    margin-top: -11px;
+    margin-left: 3px;
+}
+.list-custom-select {
+    font-size: 0.85rem;
+    position: relative;
+    z-index: 11;
+}
+.select-height-one-modal + .list-custom-select input{
+    padding-top: 0.3rem;
+}
+.list-custom-select input {
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    border-bottom: 0;
+    border-radius: 0.375rem 0.375rem 0 0;
+    width: 100%;
+    padding: 1.3rem 0.75rem 0.3rem 0.75rem;
+    outline: none !important;
+    border-radius: 0.375rem 0.375rem 0 0;
+    font-size: 0.8rem;
+}
+.select-custom > div {
+    padding: 0.3rem 0.75rem;
+    cursor: pointer;
+}
+.select-custom {
+    padding: 0.5rem 0;
+    max-height: 135px;
+    overflow: auto;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    border: 1px solid #ced4da;
+    margin-top: 3px;
+}
+.select-custom > div:hover {
+    background-color: #ddd;
+}
+.block{
+    max-width: 300px;
+    margin: 20px auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+button{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px !important;
+    background-color: #555;
+    color: #fff;
+    margin: 0 auto;
+}
+.select-custom-main {
+    display: none !important;
+}
